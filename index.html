@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="description" content="欢迎来到五色土 : this is my blog in github">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>欢迎来到五色土</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/tucano2000/blog">View on GitHub</a>
+
+          <h1 id="project_title">欢迎来到五色土</h1>
+          <h2 id="project_tagline">this is my blog in github</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/tucano2000/blog/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/tucano2000/blog/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <p>Linux常用系统信息查看命令
+系统</p>
+
+<h1>
+<a name="uname--a----------------%E6%9F%A5%E7%9C%8B%E5%86%85%E6%A0%B8%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9Fcpu%E4%BF%A1%E6%81%AF" class="anchor" href="#uname--a----------------%E6%9F%A5%E7%9C%8B%E5%86%85%E6%A0%B8%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9Fcpu%E4%BF%A1%E6%81%AF"><span class="octicon octicon-link"></span></a>uname -a               # 查看内核/操作系统/CPU信息</h1>
+
+<h1>
+<a name="head--n-1-etcissue----%E6%9F%A5%E7%9C%8B%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E7%89%88%E6%9C%AC" class="anchor" href="#head--n-1-etcissue----%E6%9F%A5%E7%9C%8B%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E7%89%88%E6%9C%AC"><span class="octicon octicon-link"></span></a>head -n 1 /etc/issue   # 查看操作系统版本</h1>
+
+<h1>
+<a name="cat-proccpuinfo-------%E6%9F%A5%E7%9C%8Bcpu%E4%BF%A1%E6%81%AF" class="anchor" href="#cat-proccpuinfo-------%E6%9F%A5%E7%9C%8Bcpu%E4%BF%A1%E6%81%AF"><span class="octicon octicon-link"></span></a>cat /proc/cpuinfo      # 查看CPU信息</h1>
+
+<h1>
+<a name="hostname----------------%E6%9F%A5%E7%9C%8B%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%90%8D" class="anchor" href="#hostname----------------%E6%9F%A5%E7%9C%8B%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%90%8D"><span class="octicon octicon-link"></span></a>hostname               # 查看计算机名</h1>
+
+<h1>
+<a name="lspci--tv---------------%E5%88%97%E5%87%BA%E6%89%80%E6%9C%89pci%E8%AE%BE%E5%A4%87" class="anchor" href="#lspci--tv---------------%E5%88%97%E5%87%BA%E6%89%80%E6%9C%89pci%E8%AE%BE%E5%A4%87"><span class="octicon octicon-link"></span></a>lspci -tv              # 列出所有PCI设备</h1>
+
+<h1>
+<a name="lsusb--tv---------------%E5%88%97%E5%87%BA%E6%89%80%E6%9C%89usb%E8%AE%BE%E5%A4%87" class="anchor" href="#lsusb--tv---------------%E5%88%97%E5%87%BA%E6%89%80%E6%9C%89usb%E8%AE%BE%E5%A4%87"><span class="octicon octicon-link"></span></a>lsusb -tv              # 列出所有USB设备</h1>
+
+<h1>
+<a name="lsmod-------------------%E5%88%97%E5%87%BA%E5%8A%A0%E8%BD%BD%E7%9A%84%E5%86%85%E6%A0%B8%E6%A8%A1%E5%9D%97" class="anchor" href="#lsmod-------------------%E5%88%97%E5%87%BA%E5%8A%A0%E8%BD%BD%E7%9A%84%E5%86%85%E6%A0%B8%E6%A8%A1%E5%9D%97"><span class="octicon octicon-link"></span></a>lsmod                  # 列出加载的内核模块</h1>
+
+<h1>
+<a name="env---------------------%E6%9F%A5%E7%9C%8B%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F" class="anchor" href="#env---------------------%E6%9F%A5%E7%9C%8B%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F"><span class="octicon octicon-link"></span></a>env                    # 查看环境变量</h1>
+
+<p>资源</p>
+
+<h1>
+<a name="free--m-----------------%E6%9F%A5%E7%9C%8B%E5%86%85%E5%AD%98%E4%BD%BF%E7%94%A8%E9%87%8F%E5%92%8C%E4%BA%A4%E6%8D%A2%E5%8C%BA%E4%BD%BF%E7%94%A8%E9%87%8F" class="anchor" href="#free--m-----------------%E6%9F%A5%E7%9C%8B%E5%86%85%E5%AD%98%E4%BD%BF%E7%94%A8%E9%87%8F%E5%92%8C%E4%BA%A4%E6%8D%A2%E5%8C%BA%E4%BD%BF%E7%94%A8%E9%87%8F"><span class="octicon octicon-link"></span></a>free -m                # 查看内存使用量和交换区使用量</h1>
+
+<h1>
+<a name="df--h-------------------%E6%9F%A5%E7%9C%8B%E5%90%84%E5%88%86%E5%8C%BA%E4%BD%BF%E7%94%A8%E6%83%85%E5%86%B5" class="anchor" href="#df--h-------------------%E6%9F%A5%E7%9C%8B%E5%90%84%E5%88%86%E5%8C%BA%E4%BD%BF%E7%94%A8%E6%83%85%E5%86%B5"><span class="octicon octicon-link"></span></a>df -h                  # 查看各分区使用情况</h1>
+
+<h1>
+<a name="du--sh-%E7%9B%AE%E5%BD%95%E5%90%8D---------%E6%9F%A5%E7%9C%8B%E6%8C%87%E5%AE%9A%E7%9B%AE%E5%BD%95%E7%9A%84%E5%A4%A7%E5%B0%8F" class="anchor" href="#du--sh-%E7%9B%AE%E5%BD%95%E5%90%8D---------%E6%9F%A5%E7%9C%8B%E6%8C%87%E5%AE%9A%E7%9B%AE%E5%BD%95%E7%9A%84%E5%A4%A7%E5%B0%8F"><span class="octicon octicon-link"></span></a>du -sh &lt;目录名&gt;        # 查看指定目录的大小</h1>
+
+<h1>
+<a name="grep-memtotal-procmeminfo----%E6%9F%A5%E7%9C%8B%E5%86%85%E5%AD%98%E6%80%BB%E9%87%8F" class="anchor" href="#grep-memtotal-procmeminfo----%E6%9F%A5%E7%9C%8B%E5%86%85%E5%AD%98%E6%80%BB%E9%87%8F"><span class="octicon octicon-link"></span></a>grep MemTotal /proc/meminfo   # 查看内存总量</h1>
+
+<h1>
+<a name="grep-memfree-procmeminfo-----%E6%9F%A5%E7%9C%8B%E7%A9%BA%E9%97%B2%E5%86%85%E5%AD%98%E9%87%8F" class="anchor" href="#grep-memfree-procmeminfo-----%E6%9F%A5%E7%9C%8B%E7%A9%BA%E9%97%B2%E5%86%85%E5%AD%98%E9%87%8F"><span class="octicon octicon-link"></span></a>grep MemFree /proc/meminfo    # 查看空闲内存量</h1>
+
+<h1>
+<a name="uptime------------------%E6%9F%A5%E7%9C%8B%E7%B3%BB%E7%BB%9F%E8%BF%90%E8%A1%8C%E6%97%B6%E9%97%B4%E7%94%A8%E6%88%B7%E6%95%B0%E8%B4%9F%E8%BD%BD" class="anchor" href="#uptime------------------%E6%9F%A5%E7%9C%8B%E7%B3%BB%E7%BB%9F%E8%BF%90%E8%A1%8C%E6%97%B6%E9%97%B4%E7%94%A8%E6%88%B7%E6%95%B0%E8%B4%9F%E8%BD%BD"><span class="octicon octicon-link"></span></a>uptime                 # 查看系统运行时间、用户数、负载</h1>
+
+<h1>
+<a name="cat-procloadavg-------%E6%9F%A5%E7%9C%8B%E7%B3%BB%E7%BB%9F%E8%B4%9F%E8%BD%BD" class="anchor" href="#cat-procloadavg-------%E6%9F%A5%E7%9C%8B%E7%B3%BB%E7%BB%9F%E8%B4%9F%E8%BD%BD"><span class="octicon octicon-link"></span></a>cat /proc/loadavg      # 查看系统负载</h1>
+
+<p>磁盘和分区</p>
+
+<h1>
+<a name="mount--column--t-------%E6%9F%A5%E7%9C%8B%E6%8C%82%E6%8E%A5%E7%9A%84%E5%88%86%E5%8C%BA%E7%8A%B6%E6%80%81" class="anchor" href="#mount--column--t-------%E6%9F%A5%E7%9C%8B%E6%8C%82%E6%8E%A5%E7%9A%84%E5%88%86%E5%8C%BA%E7%8A%B6%E6%80%81"><span class="octicon octicon-link"></span></a>mount | column -t      # 查看挂接的分区状态</h1>
+
+<h1>
+<a name="fdisk--l----------------%E6%9F%A5%E7%9C%8B%E6%89%80%E6%9C%89%E5%88%86%E5%8C%BA" class="anchor" href="#fdisk--l----------------%E6%9F%A5%E7%9C%8B%E6%89%80%E6%9C%89%E5%88%86%E5%8C%BA"><span class="octicon octicon-link"></span></a>fdisk -l               # 查看所有分区</h1>
+
+<h1>
+<a name="swapon--s---------------%E6%9F%A5%E7%9C%8B%E6%89%80%E6%9C%89%E4%BA%A4%E6%8D%A2%E5%88%86%E5%8C%BA" class="anchor" href="#swapon--s---------------%E6%9F%A5%E7%9C%8B%E6%89%80%E6%9C%89%E4%BA%A4%E6%8D%A2%E5%88%86%E5%8C%BA"><span class="octicon octicon-link"></span></a>swapon -s              # 查看所有交换分区</h1>
+
+<h1>
+<a name="hdparm--i-devhda------%E6%9F%A5%E7%9C%8B%E7%A3%81%E7%9B%98%E5%8F%82%E6%95%B0%E4%BB%85%E9%80%82%E7%94%A8%E4%BA%8Eide%E8%AE%BE%E5%A4%87" class="anchor" href="#hdparm--i-devhda------%E6%9F%A5%E7%9C%8B%E7%A3%81%E7%9B%98%E5%8F%82%E6%95%B0%E4%BB%85%E9%80%82%E7%94%A8%E4%BA%8Eide%E8%AE%BE%E5%A4%87"><span class="octicon octicon-link"></span></a>hdparm -i /dev/hda     # 查看磁盘参数(仅适用于IDE设备)</h1>
+
+<h1>
+<a name="dmesg--grep-ide--------%E6%9F%A5%E7%9C%8B%E5%90%AF%E5%8A%A8%E6%97%B6ide%E8%AE%BE%E5%A4%87%E6%A3%80%E6%B5%8B%E7%8A%B6%E5%86%B5" class="anchor" href="#dmesg--grep-ide--------%E6%9F%A5%E7%9C%8B%E5%90%AF%E5%8A%A8%E6%97%B6ide%E8%AE%BE%E5%A4%87%E6%A3%80%E6%B5%8B%E7%8A%B6%E5%86%B5"><span class="octicon octicon-link"></span></a>dmesg | grep IDE       # 查看启动时IDE设备检测状况</h1>
+
+<p>网络</p>
+
+<h1>
+<a name="ifconfig----------------%E6%9F%A5%E7%9C%8B%E6%89%80%E6%9C%89%E7%BD%91%E7%BB%9C%E6%8E%A5%E5%8F%A3%E7%9A%84%E5%B1%9E%E6%80%A7" class="anchor" href="#ifconfig----------------%E6%9F%A5%E7%9C%8B%E6%89%80%E6%9C%89%E7%BD%91%E7%BB%9C%E6%8E%A5%E5%8F%A3%E7%9A%84%E5%B1%9E%E6%80%A7"><span class="octicon octicon-link"></span></a>ifconfig               # 查看所有网络接口的属性</h1>
+
+<h1>
+<a name="iptables--l-------------%E6%9F%A5%E7%9C%8B%E9%98%B2%E7%81%AB%E5%A2%99%E8%AE%BE%E7%BD%AE" class="anchor" href="#iptables--l-------------%E6%9F%A5%E7%9C%8B%E9%98%B2%E7%81%AB%E5%A2%99%E8%AE%BE%E7%BD%AE"><span class="octicon octicon-link"></span></a>iptables -L            # 查看防火墙设置</h1>
+
+<h1>
+<a name="route--n----------------%E6%9F%A5%E7%9C%8B%E8%B7%AF%E7%94%B1%E8%A1%A8" class="anchor" href="#route--n----------------%E6%9F%A5%E7%9C%8B%E8%B7%AF%E7%94%B1%E8%A1%A8"><span class="octicon octicon-link"></span></a>route -n               # 查看路由表</h1>
+
+<h1>
+<a name="netstat--lntp-----------%E6%9F%A5%E7%9C%8B%E6%89%80%E6%9C%89%E7%9B%91%E5%90%AC%E7%AB%AF%E5%8F%A3" class="anchor" href="#netstat--lntp-----------%E6%9F%A5%E7%9C%8B%E6%89%80%E6%9C%89%E7%9B%91%E5%90%AC%E7%AB%AF%E5%8F%A3"><span class="octicon octicon-link"></span></a>netstat -lntp          # 查看所有监听端口</h1>
+
+<h1>
+<a name="netstat--antp-----------%E6%9F%A5%E7%9C%8B%E6%89%80%E6%9C%89%E5%B7%B2%E7%BB%8F%E5%BB%BA%E7%AB%8B%E7%9A%84%E8%BF%9E%E6%8E%A5" class="anchor" href="#netstat--antp-----------%E6%9F%A5%E7%9C%8B%E6%89%80%E6%9C%89%E5%B7%B2%E7%BB%8F%E5%BB%BA%E7%AB%8B%E7%9A%84%E8%BF%9E%E6%8E%A5"><span class="octicon octicon-link"></span></a>netstat -antp          # 查看所有已经建立的连接</h1>
+
+<h1>
+<a name="netstat--s--------------%E6%9F%A5%E7%9C%8B%E7%BD%91%E7%BB%9C%E7%BB%9F%E8%AE%A1%E4%BF%A1%E6%81%AF" class="anchor" href="#netstat--s--------------%E6%9F%A5%E7%9C%8B%E7%BD%91%E7%BB%9C%E7%BB%9F%E8%AE%A1%E4%BF%A1%E6%81%AF"><span class="octicon octicon-link"></span></a>netstat -s             # 查看网络统计信息</h1>
+
+<p>进程</p>
+
+<h1>
+<a name="ps--ef------------------%E6%9F%A5%E7%9C%8B%E6%89%80%E6%9C%89%E8%BF%9B%E7%A8%8B" class="anchor" href="#ps--ef------------------%E6%9F%A5%E7%9C%8B%E6%89%80%E6%9C%89%E8%BF%9B%E7%A8%8B"><span class="octicon octicon-link"></span></a>ps -ef                 # 查看所有进程</h1>
+
+<h1>
+<a name="top---------------------%E5%AE%9E%E6%97%B6%E6%98%BE%E7%A4%BA%E8%BF%9B%E7%A8%8B%E7%8A%B6%E6%80%81" class="anchor" href="#top---------------------%E5%AE%9E%E6%97%B6%E6%98%BE%E7%A4%BA%E8%BF%9B%E7%A8%8B%E7%8A%B6%E6%80%81"><span class="octicon octicon-link"></span></a>top                    # 实时显示进程状态</h1>
+
+<p>用户</p>
+
+<h1>
+<a name="w-----------------------%E6%9F%A5%E7%9C%8B%E6%B4%BB%E5%8A%A8%E7%94%A8%E6%88%B7" class="anchor" href="#w-----------------------%E6%9F%A5%E7%9C%8B%E6%B4%BB%E5%8A%A8%E7%94%A8%E6%88%B7"><span class="octicon octicon-link"></span></a>w                      # 查看活动用户</h1>
+
+<h1>
+<a name="id-%E7%94%A8%E6%88%B7%E5%90%8D-------------%E6%9F%A5%E7%9C%8B%E6%8C%87%E5%AE%9A%E7%94%A8%E6%88%B7%E4%BF%A1%E6%81%AF" class="anchor" href="#id-%E7%94%A8%E6%88%B7%E5%90%8D-------------%E6%9F%A5%E7%9C%8B%E6%8C%87%E5%AE%9A%E7%94%A8%E6%88%B7%E4%BF%A1%E6%81%AF"><span class="octicon octicon-link"></span></a>id &lt;用户名&gt;            # 查看指定用户信息</h1>
+
+<h1>
+<a name="last--------------------%E6%9F%A5%E7%9C%8B%E7%94%A8%E6%88%B7%E7%99%BB%E5%BD%95%E6%97%A5%E5%BF%97" class="anchor" href="#last--------------------%E6%9F%A5%E7%9C%8B%E7%94%A8%E6%88%B7%E7%99%BB%E5%BD%95%E6%97%A5%E5%BF%97"><span class="octicon octicon-link"></span></a>last                   # 查看用户登录日志</h1>
+
+<h1>
+<a name="cut--d--f1-etcpasswd----%E6%9F%A5%E7%9C%8B%E7%B3%BB%E7%BB%9F%E6%89%80%E6%9C%89%E7%94%A8%E6%88%B7" class="anchor" href="#cut--d--f1-etcpasswd----%E6%9F%A5%E7%9C%8B%E7%B3%BB%E7%BB%9F%E6%89%80%E6%9C%89%E7%94%A8%E6%88%B7"><span class="octicon octicon-link"></span></a>cut -d: -f1 /etc/passwd   # 查看系统所有用户</h1>
+
+<h1>
+<a name="cut--d--f1-etcgroup-----%E6%9F%A5%E7%9C%8B%E7%B3%BB%E7%BB%9F%E6%89%80%E6%9C%89%E7%BB%84" class="anchor" href="#cut--d--f1-etcgroup-----%E6%9F%A5%E7%9C%8B%E7%B3%BB%E7%BB%9F%E6%89%80%E6%9C%89%E7%BB%84"><span class="octicon octicon-link"></span></a>cut -d: -f1 /etc/group    # 查看系统所有组</h1>
+
+<h1>
+<a name="crontab--l--------------%E6%9F%A5%E7%9C%8B%E5%BD%93%E5%89%8D%E7%94%A8%E6%88%B7%E7%9A%84%E8%AE%A1%E5%88%92%E4%BB%BB%E5%8A%A1" class="anchor" href="#crontab--l--------------%E6%9F%A5%E7%9C%8B%E5%BD%93%E5%89%8D%E7%94%A8%E6%88%B7%E7%9A%84%E8%AE%A1%E5%88%92%E4%BB%BB%E5%8A%A1"><span class="octicon octicon-link"></span></a>crontab -l             # 查看当前用户的计划任务</h1>
+
+<p>服务</p>
+
+<h1>
+<a name="chkconfig---list--------%E5%88%97%E5%87%BA%E6%89%80%E6%9C%89%E7%B3%BB%E7%BB%9F%E6%9C%8D%E5%8A%A1" class="anchor" href="#chkconfig---list--------%E5%88%97%E5%87%BA%E6%89%80%E6%9C%89%E7%B3%BB%E7%BB%9F%E6%9C%8D%E5%8A%A1"><span class="octicon octicon-link"></span></a>chkconfig --list       # 列出所有系统服务</h1>
+
+<h1>
+<a name="chkconfig---list--grep-on-----%E5%88%97%E5%87%BA%E6%89%80%E6%9C%89%E5%90%AF%E5%8A%A8%E7%9A%84%E7%B3%BB%E7%BB%9F%E6%9C%8D%E5%8A%A1" class="anchor" href="#chkconfig---list--grep-on-----%E5%88%97%E5%87%BA%E6%89%80%E6%9C%89%E5%90%AF%E5%8A%A8%E7%9A%84%E7%B3%BB%E7%BB%9F%E6%9C%8D%E5%8A%A1"><span class="octicon octicon-link"></span></a>chkconfig --list | grep on    # 列出所有启动的系统服务</h1>
+
+<p>程序</p>
+
+<h1>
+<a name="rpm--qa" class="anchor" href="#rpm--qa"><span class="octicon octicon-link"></span></a>rpm -qa</h1>
+
+<p>rpm -qf /usr/libexec/webmin 查看文件是哪个软件包安装的
+rpm -ql &lt;包名&gt;    一个rpm包中的文件安装到哪里去了？  </p>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">欢迎来到五色土 maintained by <a href="https://github.com/tucano2000">tucano2000</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+              <script type="text/javascript">
+            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+          </script>
+          <script type="text/javascript">
+            try {
+              var pageTracker = _gat._getTracker("Linux 命令");
+            pageTracker._trackPageview();
+            } catch(err) {}
+          </script>
+
+
+  </body>
+</html>
